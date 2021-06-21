@@ -19,7 +19,6 @@ import android.content.Context;
 import android.database.Cursor;
 import android.graphics.Rect;
 import android.os.AsyncTask;
-import androidx.appcompat.R;
 import android.text.Editable;
 import android.text.TextPaint;
 import android.text.TextWatcher;
@@ -37,6 +36,7 @@ import com.android.messaging.datamodel.data.ParticipantData;
 import com.android.messaging.util.ContactRecipientEntryUtils;
 import com.android.messaging.util.ContactUtil;
 import com.android.messaging.util.PhoneUtils;
+import com.android.messaging.R;
 
 import java.util.ArrayList;
 import java.util.HashSet;

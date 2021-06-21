@@ -6,7 +6,6 @@
 **/*.iml
 .settings/
 bin/
-libs/
 gen/
 .idea/
 .idea/libraries/*.xml
