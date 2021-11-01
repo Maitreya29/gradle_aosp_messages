@@ -106,21 +106,21 @@
                     <ImageButton
                         android:id="@+id/attach_media_button"
                         style="@style/ComposeMessageViewAttachMediaButtonStyle"
-                        android:layout_width="wrap_content"
+                        android:layout_width="40dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:src="@drawable/ic_attachment_dark"
+                        android:contentDescription="@string/attachMediaButtonContentDescription"
                         android:paddingTop="@dimen/compose_message_attachment_padding_topBottom"
                         android:paddingBottom="@dimen/compose_message_attachment_padding_topBottom"
-                        android:contentDescription="@string/attachMediaButtonContentDescription" />
+                        android:src="@drawable/ic_attachment_dark" />
 
                     <com.radiant.messaging.ui.PlainTextEditText
                         android:id="@+id/compose_message_text"
                         style="@style/ConversationComposeSendText"
+                        android:layout_width="324dp"
                         android:layout_height="wrap_content"
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
                         android:layout_gravity="center"
+                        android:layout_weight="1"
                         android:background="@drawable/msg_bubble_input"
                         android:hint="@string/compose_message_view_hint_text"
                         android:imeOptions="actionSend|flagNoEnterAction|flagNoExtractUi" />
@@ -143,25 +143,27 @@
                 android:layout_height="wrap_content">
 
                 <FrameLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     style="@style/ComposeMessageViewFrameLayoutStyle"
-                    android:layout_gravity="top" >
+                    android:layout_width="42dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top">
+
                     <com.radiant.messaging.ui.conversation.SimIconView
                         android:id="@+id/self_send_icon"
                         android:layout_width="@dimen/conversation_message_contact_icon_size"
                         android:layout_height="@dimen/conversation_message_contact_icon_size"
+                        android:clickable="true"
                         android:importantForAccessibility="no"
                         app:iconSizez="normal"
-                        app:reveal="true"
-                        android:clickable="true" />
+                        app:reveal="true" />
+
                     <ImageButton
                         android:id="@+id/send_message_button"
                         android:layout_width="@dimen/conversation_message_contact_icon_size"
                         android:layout_height="@dimen/conversation_message_contact_icon_size"
-                        android:src="@drawable/ic_send_light"
                         android:background="@drawable/send_arrow_background"
                         android:contentDescription="@string/sendButtonContentDescription"
+                        android:src="@drawable/ic_send_light"
                         android:visibility="gone" />
                 </FrameLayout>
 
