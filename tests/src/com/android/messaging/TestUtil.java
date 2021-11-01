@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging;
+package com.radiant.messaging;
 
 import android.appwidget.AppWidgetManager;
 import android.content.ComponentName;
@@ -22,9 +22,9 @@ import android.content.Context;
 import android.os.PowerManager;
 import android.test.InstrumentationTestCase;
 
-import com.android.messaging.util.LogUtil;
-import com.android.messaging.widget.BugleWidgetProvider;
-import com.android.messaging.widget.WidgetConversationProvider;
+import com.radiant.messaging.util.LogUtil;
+import com.radiant.messaging.widget.BugleWidgetProvider;
+import com.radiant.messaging.widget.WidgetConversationProvider;
 
 import junit.framework.TestCase;
 

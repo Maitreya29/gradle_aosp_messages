@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.ui.conversation;
+package com.radiant.messaging.ui.conversation;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.isNull;
@@ -25,22 +25,22 @@ import android.test.suitebuilder.annotation.MediumTest;
 import android.view.View;
 import android.widget.EditText;
 
-import com.android.messaging.FakeFactory;
-import com.android.messaging.R;
-import com.android.messaging.datamodel.DataModel;
-import com.android.messaging.datamodel.binding.Binding;
-import com.android.messaging.datamodel.binding.BindingBase;
-import com.android.messaging.datamodel.data.ConversationData;
-import com.android.messaging.datamodel.data.DraftMessageData;
-import com.android.messaging.datamodel.data.DraftMessageData.CheckDraftForSendTask;
-import com.android.messaging.datamodel.data.DraftMessageData.CheckDraftTaskCallback;
-import com.android.messaging.datamodel.data.MessageData;
-import com.android.messaging.datamodel.data.MessagePartData;
-import com.android.messaging.ui.ViewTest;
-import com.android.messaging.ui.conversation.ComposeMessageView.IComposeMessageViewHost;
-import com.android.messaging.util.BugleGservices;
-import com.android.messaging.util.FakeMediaUtil;
-import com.android.messaging.util.ImeUtil;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.R;
+import com.radiant.messaging.datamodel.DataModel;
+import com.radiant.messaging.datamodel.binding.Binding;
+import com.radiant.messaging.datamodel.binding.BindingBase;
+import com.radiant.messaging.datamodel.data.ConversationData;
+import com.radiant.messaging.datamodel.data.DraftMessageData;
+import com.radiant.messaging.datamodel.data.DraftMessageData.CheckDraftForSendTask;
+import com.radiant.messaging.datamodel.data.DraftMessageData.CheckDraftTaskCallback;
+import com.radiant.messaging.datamodel.data.MessageData;
+import com.radiant.messaging.datamodel.data.MessagePartData;
+import com.radiant.messaging.ui.ViewTest;
+import com.radiant.messaging.ui.conversation.ComposeMessageView.IComposeMessageViewHost;
+import com.radiant.messaging.util.BugleGservices;
+import com.radiant.messaging.util.FakeMediaUtil;
+import com.radiant.messaging.util.ImeUtil;
 
 import org.mockito.ArgumentMatcher;
 import org.mockito.Matchers;

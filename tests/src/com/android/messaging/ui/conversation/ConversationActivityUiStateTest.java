@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.messaging.ui.conversation;
+package com.radiant.messaging.ui.conversation;
 
 import android.test.suitebuilder.annotation.SmallTest;
 import android.text.TextUtils;
 
-import com.android.messaging.BugleTestCase;
-import com.android.messaging.ui.contact.ContactPickerFragment;
-import com.android.messaging.ui.conversation.ConversationActivityUiState;
-import com.android.messaging.ui.conversation.ConversationActivityUiState.ConversationActivityUiStateHost;
+import com.radiant.messaging.BugleTestCase;
+import com.radiant.messaging.ui.contact.ContactPickerFragment;
+import com.radiant.messaging.ui.conversation.ConversationActivityUiState;
+import com.radiant.messaging.ui.conversation.ConversationActivityUiState.ConversationActivityUiStateHost;
 
 import org.mockito.Mock;
 import org.mockito.Mockito;

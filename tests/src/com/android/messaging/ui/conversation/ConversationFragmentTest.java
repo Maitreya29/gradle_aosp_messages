@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.ui.conversation;
+package com.radiant.messaging.ui.conversation;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -23,22 +23,22 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.RecyclerView.Adapter;
 import android.test.suitebuilder.annotation.LargeTest;
 
-import com.android.messaging.FakeFactory;
-import com.android.messaging.R;
-import com.android.messaging.datamodel.DataModel;
-import com.android.messaging.datamodel.MemoryCacheManager;
-import com.android.messaging.datamodel.data.ConversationData;
-import com.android.messaging.datamodel.data.ConversationData.ConversationDataListener;
-import com.android.messaging.datamodel.data.DraftMessageData;
-import com.android.messaging.datamodel.data.TestDataFactory;
-import com.android.messaging.datamodel.media.MediaResourceManager;
-import com.android.messaging.ui.FragmentTestCase;
-import com.android.messaging.ui.PlainTextEditText;
-import com.android.messaging.ui.TestActivity.FragmentEventListener;
-import com.android.messaging.ui.conversation.ConversationFragment.ConversationFragmentHost;
-import com.android.messaging.ui.conversationlist.ConversationListFragment;
-import com.android.messaging.util.BugleGservices;
-import com.android.messaging.util.ImeUtil;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.R;
+import com.radiant.messaging.datamodel.DataModel;
+import com.radiant.messaging.datamodel.MemoryCacheManager;
+import com.radiant.messaging.datamodel.data.ConversationData;
+import com.radiant.messaging.datamodel.data.ConversationData.ConversationDataListener;
+import com.radiant.messaging.datamodel.data.DraftMessageData;
+import com.radiant.messaging.datamodel.data.TestDataFactory;
+import com.radiant.messaging.datamodel.media.MediaResourceManager;
+import com.radiant.messaging.ui.FragmentTestCase;
+import com.radiant.messaging.ui.PlainTextEditText;
+import com.radiant.messaging.ui.TestActivity.FragmentEventListener;
+import com.radiant.messaging.ui.conversation.ConversationFragment.ConversationFragmentHost;
+import com.radiant.messaging.ui.conversationlist.ConversationListFragment;
+import com.radiant.messaging.util.BugleGservices;
+import com.radiant.messaging.util.ImeUtil;
 
 import org.mockito.Matchers;
 import org.mockito.Mock;

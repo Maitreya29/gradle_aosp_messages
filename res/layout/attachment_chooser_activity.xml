@@ -16,7 +16,7 @@
 -->
 <fragment
     xmlns:android="http://schemas.android.com/apk/res/android"
-    class="com.android.messaging.ui.attachmentchooser.AttachmentChooserFragment"
+    class="com.radiant.messaging.ui.attachmentchooser.AttachmentChooserFragment"
     android:id="@+id/attachment_chooser_fragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent" />

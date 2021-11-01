@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.messaging.ui.conversation;
+package com.radiant.messaging.ui.conversation;
 
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -21,20 +21,20 @@ import android.os.Bundle;
 import android.test.suitebuilder.annotation.SmallTest;
 import android.widget.EditText;
 
-import com.android.messaging.BugleTestCase;
-import com.android.messaging.FakeFactory;
-import com.android.messaging.R;
-import com.android.messaging.datamodel.binding.Binding;
-import com.android.messaging.datamodel.binding.BindingBase;
-import com.android.messaging.datamodel.data.ConversationData;
-import com.android.messaging.datamodel.data.DraftMessageData;
-import com.android.messaging.datamodel.data.SubscriptionListData;
-import com.android.messaging.ui.conversation.ConversationInputManager.ConversationInputHost;
-import com.android.messaging.ui.conversation.ConversationInputManager.ConversationInputSink;
-import com.android.messaging.ui.mediapicker.MediaPicker;
-import com.android.messaging.util.BugleGservices;
-import com.android.messaging.util.ImeUtil;
-import com.android.messaging.util.ImeUtil.ImeStateHost;
+import com.radiant.messaging.BugleTestCase;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.R;
+import com.radiant.messaging.datamodel.binding.Binding;
+import com.radiant.messaging.datamodel.binding.BindingBase;
+import com.radiant.messaging.datamodel.data.ConversationData;
+import com.radiant.messaging.datamodel.data.DraftMessageData;
+import com.radiant.messaging.datamodel.data.SubscriptionListData;
+import com.radiant.messaging.ui.conversation.ConversationInputManager.ConversationInputHost;
+import com.radiant.messaging.ui.conversation.ConversationInputManager.ConversationInputSink;
+import com.radiant.messaging.ui.mediapicker.MediaPicker;
+import com.radiant.messaging.util.BugleGservices;
+import com.radiant.messaging.util.ImeUtil;
+import com.radiant.messaging.util.ImeUtil.ImeStateHost;
 
 import org.mockito.Mock;
 import org.mockito.Mockito;

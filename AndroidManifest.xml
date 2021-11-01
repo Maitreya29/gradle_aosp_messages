@@ -15,7 +15,7 @@
     limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.messaging"
+    package="com.radiant.messaging"
     android:installLocation="internalOnly">
 
    <!-- <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="29" /> -->
@@ -56,7 +56,7 @@
     <uses-feature android:name="android.hardware.screen.portrait" android:required="false" />
 
     <application
-        android:name="com.android.messaging.BugleApplication"
+        android:name="com.radiant.messaging.BugleApplication"
         android:allowBackup="false"
         android:appCategory="social"
         android:icon="@mipmap/ic_launcher"
@@ -115,10 +115,10 @@
             android:label="@string/archived_activity_title"
             android:exported="true"
             android:theme="@style/BugleTheme.ArchivedConversationListActivity"
-            android:parentActivityName="com.android.messaging.ui.conversationlist.ConversationListActivity">
+            android:parentActivityName="com.radiant.messaging.ui.conversationlist.ConversationListActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.messaging.ui.conversationlist.ConversationListActivity" />
+                android:value="com.radiant.messaging.ui.conversationlist.ConversationListActivity" />
         </activity>
 
         <!-- Displays the contents of a single conversation -->
@@ -129,10 +129,10 @@
             android:exported="true"
             android:windowSoftInputMode="stateHidden|adjustResize"
             android:theme="@style/BugleTheme.ConversationActivity"
-            android:parentActivityName="com.android.messaging.ui.conversationlist.ConversationListActivity">
+            android:parentActivityName="com.radiant.messaging.ui.conversationlist.ConversationListActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.messaging.ui.conversationlist.ConversationListActivity" />
+                android:value="com.radiant.messaging.ui.conversationlist.ConversationListActivity" />
         </activity>
 
         <!-- Blocked Participants -->
@@ -143,10 +143,10 @@
             android:exported="true"
             android:label="@string/blocked_contacts_title"
             android:theme="@style/BugleTheme"
-            android:parentActivityName="com.android.messaging.ui.conversationlist.ConversationListActivity">
+            android:parentActivityName="com.radiant.messaging.ui.conversationlist.ConversationListActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.messaging.ui.conversationlist.ConversationListActivity" />
+                android:value="com.radiant.messaging.ui.conversationlist.ConversationListActivity" />
         </activity>
 
         <!-- Full-screen photo viewer -->
@@ -166,10 +166,10 @@
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="user"
             android:exported="true"
-            android:parentActivityName="com.android.messaging.ui.conversationlist.ConversationListActivity">
+            android:parentActivityName="com.radiant.messaging.ui.conversationlist.ConversationListActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.messaging.ui.conversationlist.ConversationListActivity" />
+                android:value="com.radiant.messaging.ui.conversationlist.ConversationListActivity" />
         </activity>
 
         <activity
@@ -179,10 +179,10 @@
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="user"
             android:exported="true"
-            android:parentActivityName="com.android.messaging.ui.appsettings.SettingsActivity">
+            android:parentActivityName="com.radiant.messaging.ui.appsettings.SettingsActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.messaging.ui.appsettings.SettingsActivity" />
+                android:value="com.radiant.messaging.ui.appsettings.SettingsActivity" />
         </activity>
 
         <activity
@@ -192,11 +192,11 @@
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="user"
             android:exported="true"
-            android:parentActivityName="com.android.messaging.ui.appsettings.SettingsActivity">
+            android:parentActivityName="com.radiant.messaging.ui.appsettings.SettingsActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:exported="true"
-                android:value="com.android.messaging.ui.appsettings.SettingsActivity" />
+                android:value="com.radiant.messaging.ui.appsettings.SettingsActivity" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -236,10 +236,10 @@
             android:label="@string/people_and_options_activity_title"
             android:exported="true"
             android:theme="@style/BugleTheme"
-            android:parentActivityName="com.android.messaging.ui.conversation.ConversationActivity">
+            android:parentActivityName="com.android.radiant.ui.conversation.ConversationActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.messaging.ui.conversation.ConversationActivity" />
+                android:value="com.android.radiant.ui.conversation.ConversationActivity" />
         </activity>
 
          <!-- License -->
@@ -293,10 +293,10 @@
             android:exported="true"
             android:label="@string/attachment_chooser_activity_title"
             android:theme="@style/BugleTheme"
-            android:parentActivityName="com.android.messaging.ui.conversation.ConversationActivity">
+            android:parentActivityName="com.radiant.messaging.ui.conversation.ConversationActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.messaging.ui.conversation.ConversationActivity" />
+                android:value="com.radiant.messaging.ui.conversation.ConversationActivity" />
         </activity>
 
         <!-- Test activity that we use to host fragments/views. Unfortunately, apparently necessary
@@ -319,17 +319,17 @@
         </activity>
 
         <provider android:name=".datamodel.MessagingContentProvider" android:label="@string/app_name"
-                  android:authorities="com.android.messaging.datamodel.MessagingContentProvider"
+                  android:authorities="com.radiant.messaging.datamodel.MessagingContentProvider"
                   android:exported="false" >
         </provider>
 
         <provider android:name=".datamodel.MmsFileProvider"
-                  android:authorities="com.android.messaging.datamodel.MmsFileProvider"
+                  android:authorities="com.radiant.messaging.datamodel.MmsFileProvider"
                   android:grantUriPermissions="true"
                   android:exported="false" />
 
         <provider android:name=".datamodel.MediaScratchFileProvider"
-                  android:authorities="com.android.messaging.datamodel.MediaScratchFileProvider"
+                  android:authorities="com.radiant.messaging.datamodel.MediaScratchFileProvider"
                   android:grantUriPermissions="true"
                   android:exported="false" />
 
@@ -407,18 +407,18 @@
         <receiver android:name=".receiver.SendStatusReceiver"
                 android:exported="false">
             <intent-filter>
-                <action android:name="com.android.messaging.receiver.SendStatusReceiver.MESSAGE_SENT" />
+                <action android:name="com.radiant.messaging.receiver.SendStatusReceiver.MESSAGE_SENT" />
                 <data android:scheme="content" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.android.messaging.receiver.SendStatusReceiver.MESSAGE_DELIVERED" />
+                <action android:name="com.radiant.messaging.receiver.SendStatusReceiver.MESSAGE_DELIVERED" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.android.messaging.receiver.SendStatusReceiver.MMS_SENT" />
+                <action android:name="com.radiant.messaging.receiver.SendStatusReceiver.MMS_SENT" />
                 <data android:scheme="content" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.android.messaging.receiver.SendStatusReceiver.MMS_DOWNLOADED" />
+                <action android:name="com.radiant.messaging.receiver.SendStatusReceiver.MMS_DOWNLOADED" />
                 <data android:scheme="content" />
             </intent-filter>
         </receiver>
@@ -453,13 +453,13 @@
                   android:configChanges="orientation|screenSize|keyboardHidden"
                   android:screenOrientation="user"
                   android:theme="@style/BugleTheme"
-                  android:parentActivityName="com.android.messaging.ui.appsettings.SettingsActivity" />
+                  android:parentActivityName="com.radiant.messaging.ui.appsettings.SettingsActivity" />
 
         <activity android:name=".ui.appsettings.ApnEditorActivity"
                   android:configChanges="orientation|screenSize|keyboardHidden"
                   android:screenOrientation="user"
                   android:theme="@style/BugleTheme"
-                  android:parentActivityName="com.android.messaging.ui.appsettings.ApnSettingsActivity"/>
+                  android:parentActivityName="com.radiant.messaging.ui.appsettings.ApnSettingsActivity"/>
 
         <receiver android:name=".receiver.StorageStatusReceiver"
             android:exported="true">
@@ -490,7 +490,7 @@
             android:name=".datamodel.action.ActionServiceImpl$PendingActionReceiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="com.android.messaging.datamodel.PENDING_ACTION" />
+                <action android:name="com.radiant.messaging.datamodel.PENDING_ACTION" />
             </intent-filter>
         </receiver>
 

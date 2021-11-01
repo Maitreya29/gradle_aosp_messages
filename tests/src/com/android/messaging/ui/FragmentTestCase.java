@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.ui;
+package com.radiant.messaging.ui;
 
 import android.app.Fragment;
 import android.app.FragmentManager;

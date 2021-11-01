@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.datamodel.action;
+package com.radiant.messaging.datamodel.action;
 
 import android.content.Context;
 import android.database.ContentObserver;

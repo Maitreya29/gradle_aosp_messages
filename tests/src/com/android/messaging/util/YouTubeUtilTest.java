@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.messaging.util;
+package com.radiant.messaging.util;
 
 import android.test.suitebuilder.annotation.SmallTest;
 
-import com.android.messaging.BugleTestCase;
+import com.radiant.messaging.BugleTestCase;
 
 /*
  * Class for testing YouTubeUtil.

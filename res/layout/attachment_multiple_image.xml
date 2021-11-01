@@ -15,7 +15,7 @@
     limitations under the License.
 -->
 
-<com.android.messaging.ui.AsyncImageView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.radiant.messaging.ui.AsyncImageView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/attachment_image_view"
     android:layout_width="wrap_content"

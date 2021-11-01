@@ -14,40 +14,40 @@
  * limitations under the License.
  */
 
-package com.android.messaging.datamodel;
+package com.radiant.messaging.datamodel;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.test.RenamingDelegatingContext;
 
-import com.android.messaging.datamodel.action.ActionService;
-import com.android.messaging.datamodel.action.BackgroundWorker;
-import com.android.messaging.datamodel.data.BlockedParticipantsData;
-import com.android.messaging.datamodel.data.BlockedParticipantsData.BlockedParticipantsDataListener;
-import com.android.messaging.datamodel.data.ContactListItemData;
-import com.android.messaging.datamodel.data.ContactPickerData;
-import com.android.messaging.datamodel.data.ContactPickerData.ContactPickerDataListener;
-import com.android.messaging.datamodel.data.ConversationData;
-import com.android.messaging.datamodel.data.ConversationData.ConversationDataListener;
-import com.android.messaging.datamodel.data.ConversationListData;
-import com.android.messaging.datamodel.data.ConversationListData.ConversationListDataListener;
-import com.android.messaging.datamodel.data.DraftMessageData;
-import com.android.messaging.datamodel.data.GalleryGridItemData;
-import com.android.messaging.datamodel.data.LaunchConversationData;
-import com.android.messaging.datamodel.data.LaunchConversationData.LaunchConversationDataListener;
-import com.android.messaging.datamodel.data.MediaPickerData;
-import com.android.messaging.datamodel.data.MessagePartData;
-import com.android.messaging.datamodel.data.ParticipantData;
-import com.android.messaging.datamodel.data.ParticipantListItemData;
-import com.android.messaging.datamodel.data.PeopleAndOptionsData;
-import com.android.messaging.datamodel.data.PeopleAndOptionsData.PeopleAndOptionsDataListener;
-import com.android.messaging.datamodel.data.PeopleOptionsItemData;
-import com.android.messaging.datamodel.data.SettingsData;
-import com.android.messaging.datamodel.data.SettingsData.SettingsDataListener;
-import com.android.messaging.datamodel.data.SubscriptionListData;
-import com.android.messaging.datamodel.data.TestDataFactory;
-import com.android.messaging.datamodel.data.VCardContactItemData;
+import com.radiant.messaging.datamodel.action.ActionService;
+import com.radiant.messaging.datamodel.action.BackgroundWorker;
+import com.radiant.messaging.datamodel.data.BlockedParticipantsData;
+import com.radiant.messaging.datamodel.data.BlockedParticipantsData.BlockedParticipantsDataListener;
+import com.radiant.messaging.datamodel.data.ContactListItemData;
+import com.radiant.messaging.datamodel.data.ContactPickerData;
+import com.radiant.messaging.datamodel.data.ContactPickerData.ContactPickerDataListener;
+import com.radiant.messaging.datamodel.data.ConversationData;
+import com.radiant.messaging.datamodel.data.ConversationData.ConversationDataListener;
+import com.radiant.messaging.datamodel.data.ConversationListData;
+import com.radiant.messaging.datamodel.data.ConversationListData.ConversationListDataListener;
+import com.radiant.messaging.datamodel.data.DraftMessageData;
+import com.radiant.messaging.datamodel.data.GalleryGridItemData;
+import com.radiant.messaging.datamodel.data.LaunchConversationData;
+import com.radiant.messaging.datamodel.data.LaunchConversationData.LaunchConversationDataListener;
+import com.radiant.messaging.datamodel.data.MediaPickerData;
+import com.radiant.messaging.datamodel.data.MessagePartData;
+import com.radiant.messaging.datamodel.data.ParticipantData;
+import com.radiant.messaging.datamodel.data.ParticipantListItemData;
+import com.radiant.messaging.datamodel.data.PeopleAndOptionsData;
+import com.radiant.messaging.datamodel.data.PeopleAndOptionsData.PeopleAndOptionsDataListener;
+import com.radiant.messaging.datamodel.data.PeopleOptionsItemData;
+import com.radiant.messaging.datamodel.data.SettingsData;
+import com.radiant.messaging.datamodel.data.SettingsData.SettingsDataListener;
+import com.radiant.messaging.datamodel.data.SubscriptionListData;
+import com.radiant.messaging.datamodel.data.TestDataFactory;
+import com.radiant.messaging.datamodel.data.VCardContactItemData;
 
 public class FakeDataModel extends DataModel {
     private BackgroundWorker mWorker;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.datamodel;
+package com.radiant.messaging.datamodel;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
@@ -23,15 +23,15 @@ import android.net.Uri;
 import android.test.suitebuilder.annotation.SmallTest;
 import android.text.TextUtils;
 
-import com.android.messaging.BugleTestCase;
-import com.android.messaging.FakeContentProvider;
-import com.android.messaging.FakeContext;
-import com.android.messaging.FakeFactory;
-import com.android.messaging.datamodel.DatabaseHelper.ParticipantColumns;
-import com.android.messaging.datamodel.data.ParticipantData;
-import com.android.messaging.datamodel.data.ParticipantData.ParticipantsQuery;
-import com.android.messaging.ui.UIIntents;
-import com.android.messaging.util.ContactUtil;
+import com.radiant.messaging.BugleTestCase;
+import com.radiant.messaging.FakeContentProvider;
+import com.radiant.messaging.FakeContext;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.datamodel.DatabaseHelper.ParticipantColumns;
+import com.radiant.messaging.datamodel.data.ParticipantData;
+import com.radiant.messaging.datamodel.data.ParticipantData.ParticipantsQuery;
+import com.radiant.messaging.ui.UIIntents;
+import com.radiant.messaging.util.ContactUtil;
 
 import org.junit.Assert;
 import org.mockito.Mock;

@@ -16,7 +16,7 @@
 -->
 <fragment
     xmlns:android="http://schemas.android.com/apk/res/android"
-    class="com.android.messaging.ui.BlockedParticipantsFragment"
+    class="com.radiant.messaging.ui.BlockedParticipantsFragment"
     android:id="@+id/blocked_participants_fragment"
     android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
     android:layout_width="fill_parent"

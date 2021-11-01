@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.android.messaging.ui.conversation;
+package com.radiant.messaging.ui.conversation;
 
 import android.test.suitebuilder.annotation.MediumTest;
 import android.test.suitebuilder.annotation.Suppress;
 import android.view.View;
 import android.widget.TextView;
 
-import com.android.messaging.FakeFactory;
-import com.android.messaging.R;
-import com.android.messaging.datamodel.FakeCursor;
-import com.android.messaging.datamodel.data.TestDataFactory;
-import com.android.messaging.ui.ViewTest;
-import com.android.messaging.ui.conversation.ConversationMessageView;
-import com.android.messaging.ui.conversation.ConversationMessageView.ConversationMessageViewHost;
-import com.android.messaging.util.Dates;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.R;
+import com.radiant.messaging.datamodel.FakeCursor;
+import com.radiant.messaging.datamodel.data.TestDataFactory;
+import com.radiant.messaging.ui.ViewTest;
+import com.radiant.messaging.ui.conversation.ConversationMessageView;
+import com.radiant.messaging.ui.conversation.ConversationMessageView.ConversationMessageViewHost;
+import com.radiant.messaging.util.Dates;
 
 import org.mockito.Mock;
 

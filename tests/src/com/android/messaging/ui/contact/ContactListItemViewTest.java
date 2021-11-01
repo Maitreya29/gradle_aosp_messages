@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.messaging.ui.contact;
+package com.radiant.messaging.ui.contact;
 
 import android.content.Context;
 import android.provider.ContactsContract.CommonDataKinds.Phone;
@@ -21,14 +21,14 @@ import android.provider.ContactsContract.Contacts;
 import android.view.View;
 import android.widget.TextView;
 
-import com.android.messaging.FakeFactory;
-import com.android.messaging.R;
-import com.android.messaging.datamodel.FakeCursor;
-import com.android.messaging.datamodel.FakeDataModel;
-import com.android.messaging.datamodel.data.ContactListItemData;
-import com.android.messaging.datamodel.data.TestDataFactory;
-import com.android.messaging.ui.ContactIconView;
-import com.android.messaging.ui.ViewTest;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.R;
+import com.radiant.messaging.datamodel.FakeCursor;
+import com.radiant.messaging.datamodel.FakeDataModel;
+import com.radiant.messaging.datamodel.data.ContactListItemData;
+import com.radiant.messaging.datamodel.data.TestDataFactory;
+import com.radiant.messaging.ui.ContactIconView;
+import com.radiant.messaging.ui.ViewTest;
 
 import org.mockito.Mock;
 import org.mockito.Mockito;

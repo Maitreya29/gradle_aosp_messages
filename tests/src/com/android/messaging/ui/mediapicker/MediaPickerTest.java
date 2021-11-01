@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.android.messaging.ui.mediapicker;
+package com.radiant.messaging.ui.mediapicker;
 
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 
-import com.android.messaging.FakeFactory;
-import com.android.messaging.R;
-import com.android.messaging.datamodel.FakeDataModel;
-import com.android.messaging.datamodel.binding.Binding;
-import com.android.messaging.datamodel.binding.BindingBase;
-import com.android.messaging.datamodel.data.DraftMessageData;
-import com.android.messaging.datamodel.data.MediaPickerData;
-import com.android.messaging.ui.FragmentTestCase;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.R;
+import com.radiant.messaging.datamodel.FakeDataModel;
+import com.radiant.messaging.datamodel.binding.Binding;
+import com.radiant.messaging.datamodel.binding.BindingBase;
+import com.radiant.messaging.datamodel.data.DraftMessageData;
+import com.radiant.messaging.datamodel.data.MediaPickerData;
+import com.radiant.messaging.ui.FragmentTestCase;
 
 import org.mockito.Matchers;
 import org.mockito.Mock;

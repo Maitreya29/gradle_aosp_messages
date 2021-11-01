@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.ui.conversationlist;
+package com.radiant.messaging.ui.conversationlist;
 
 import android.content.Context;
 import android.test.suitebuilder.annotation.MediumTest;
@@ -22,18 +22,18 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.TextView;
 
-import com.android.messaging.Factory;
-import com.android.messaging.FakeFactory;
-import com.android.messaging.R;
-import com.android.messaging.datamodel.FakeCursor;
-import com.android.messaging.datamodel.FakeDataModel;
-import com.android.messaging.datamodel.data.ConversationListItemData;
-import com.android.messaging.datamodel.data.TestDataFactory;
-import com.android.messaging.ui.AsyncImageView;
-import com.android.messaging.ui.UIIntentsImpl;
-import com.android.messaging.ui.ViewTest;
-import com.android.messaging.ui.conversationlist.ConversationListItemView;
-import com.android.messaging.util.Dates;
+import com.radiant.messaging.Factory;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.R;
+import com.radiant.messaging.datamodel.FakeCursor;
+import com.radiant.messaging.datamodel.FakeDataModel;
+import com.radiant.messaging.datamodel.data.ConversationListItemData;
+import com.radiant.messaging.datamodel.data.TestDataFactory;
+import com.radiant.messaging.ui.AsyncImageView;
+import com.radiant.messaging.ui.UIIntentsImpl;
+import com.radiant.messaging.ui.ViewTest;
+import com.radiant.messaging.ui.conversationlist.ConversationListItemView;
+import com.radiant.messaging.util.Dates;
 
 import org.mockito.ArgumentMatcher;
 import org.mockito.Mock;

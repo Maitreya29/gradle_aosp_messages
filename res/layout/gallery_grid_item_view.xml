@@ -14,7 +14,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<com.android.messaging.ui.mediapicker.GalleryGridItemView
+<com.radiant.messaging.ui.mediapicker.GalleryGridItemView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="@dimen/gallery_image_cell_size"
@@ -22,7 +22,7 @@
     android:clickable="true">
 
     <!-- Thumbnail for image and video contents. -->
-    <com.android.messaging.ui.AsyncImageView
+    <com.radiant.messaging.ui.AsyncImageView
         android:id="@+id/thumbnail"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -100,4 +100,4 @@
         android:visibility="gone"
         android:contentDescription="@string/gallery_checkbox_content_description" />
 
-</com.android.messaging.ui.mediapicker.GalleryGridItemView>
+</com.radiant.messaging.ui.mediapicker.GalleryGridItemView>

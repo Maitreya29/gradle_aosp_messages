@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.messaging.ui.mediapicker;
+package com.radiant.messaging.ui.mediapicker;
 
 import android.media.MediaPlayer;
 import android.media.MediaRecorder.OnErrorListener;
 import android.media.MediaRecorder.OnInfoListener;
 import android.net.Uri;
 
-import com.android.messaging.FakeFactory;
-import com.android.messaging.R;
-import com.android.messaging.datamodel.data.MessagePartData;
-import com.android.messaging.ui.ViewTest;
-import com.android.messaging.util.FakeMediaUtil;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.R;
+import com.radiant.messaging.datamodel.data.MessagePartData;
+import com.radiant.messaging.ui.ViewTest;
+import com.radiant.messaging.util.FakeMediaUtil;
 
 import org.mockito.Matchers;
 import org.mockito.Mock;

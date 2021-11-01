@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.messaging.ui;
+package com.radiant.messaging.ui;
 
 import android.content.Context;
 import android.widget.CursorAdapter;
 
-import com.android.messaging.R;
+import com.radiant.messaging.R;
 
 /**
  * A fake {@link CustomHeaderPagerListViewHolder} for CustomHeaderViewPager tests only.

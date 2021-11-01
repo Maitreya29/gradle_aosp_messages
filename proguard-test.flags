@@ -21,19 +21,19 @@
 # FLAG(dnotario): Until we rationalize how to handle tests (extensive unit tests will want similar
 # settings to these, but maybe we want to require VisibleForTesting attribute), just expose all
 # non-private methods. This means we cannot run tests on user builds for the moment.
--keep class com.android.messaging.* {
+-keep class com.radiant.messaging.* {
   !private *;
 }
 
--keep class com.android.messaging.*.* {
+-keep class com.radiant.messaging.*.* {
   !private *;
 }
 
--keep class com.android.messaging.*.*.* {
+-keep class com.radiant.messaging.*.*.* {
   !private *;
 }
 
--keep class com.android.messaging.ui.*.* { *; }
+-keep class com.radiant.messaging.ui.*.* { *; }
 
 # Keep the classes needed by emma
 -keep class com.vladium.** { *; }

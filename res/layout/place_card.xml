@@ -19,7 +19,7 @@
    android:layout_width="wrap_content"
    android:layout_height="wrap_content">
 
-    <com.android.messaging.ui.AsyncImageView
+    <com.radiant.messaging.ui.AsyncImageView
         android:id="@+id/map_image"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"

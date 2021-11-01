@@ -24,7 +24,7 @@
         android:persistent="false">
         <intent
             android:action="android.provider.Telephony.ACTION_CHANGE_DEFAULT">
-            <extra android:name="package" android:value="com.android.messaging" />
+            <extra android:name="package" android:value="com.radiant.messaging" />
         </intent>
     </PreferenceScreen>
     <PreferenceScreen

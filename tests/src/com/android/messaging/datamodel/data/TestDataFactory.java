@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.datamodel.data;
+package com.radiant.messaging.datamodel.data;
 
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
@@ -24,18 +24,18 @@ import android.provider.ContactsContract.CommonDataKinds.Phone;
 import android.provider.ContactsContract.Contacts;
 import android.provider.MediaStore.Images.Media;
 
-import com.android.messaging.datamodel.BugleDatabaseOperations;
-import com.android.messaging.datamodel.DatabaseHelper;
-import com.android.messaging.datamodel.DatabaseHelper.ConversationColumns;
-import com.android.messaging.datamodel.DatabaseHelper.MessageColumns;
-import com.android.messaging.datamodel.DatabaseHelper.PartColumns;
-import com.android.messaging.datamodel.DatabaseHelper.ParticipantColumns;
-import com.android.messaging.datamodel.FakeCursor;
-import com.android.messaging.datamodel.data.ConversationListItemData.ConversationListViewColumns;
-import com.android.messaging.datamodel.data.ConversationMessageData.ConversationMessageViewColumns;
-import com.android.messaging.util.Assert;
-import com.android.messaging.util.ContactUtil;
-import com.android.messaging.util.ContentType;
+import com.radiant.messaging.datamodel.BugleDatabaseOperations;
+import com.radiant.messaging.datamodel.DatabaseHelper;
+import com.radiant.messaging.datamodel.DatabaseHelper.ConversationColumns;
+import com.radiant.messaging.datamodel.DatabaseHelper.MessageColumns;
+import com.radiant.messaging.datamodel.DatabaseHelper.PartColumns;
+import com.radiant.messaging.datamodel.DatabaseHelper.ParticipantColumns;
+import com.radiant.messaging.datamodel.FakeCursor;
+import com.radiant.messaging.datamodel.data.ConversationListItemData.ConversationListViewColumns;
+import com.radiant.messaging.datamodel.data.ConversationMessageData.ConversationMessageViewColumns;
+import com.radiant.messaging.util.Assert;
+import com.radiant.messaging.util.ContactUtil;
+import com.radiant.messaging.util.ContentType;
 
 import java.util.Arrays;
 import java.util.List;

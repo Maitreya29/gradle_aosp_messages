@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.messaging.ui;
+package com.radiant.messaging.ui;
 
-import com.android.messaging.FakeFactory;
-import com.android.messaging.datamodel.DataModel;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.datamodel.DataModel;
 
 import org.mockito.Mock;
 import org.mockito.Mockito;

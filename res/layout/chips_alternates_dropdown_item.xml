@@ -21,7 +21,7 @@
     android:background="@drawable/chips_dropdown_background"
     android:padding="12dp">
 
-    <com.android.messaging.ui.ContactIconView
+    <com.radiant.messaging.ui.ContactIconView
         android:id="@android:id/icon"
         style="@style/ChipIconStyle"
         android:layout_width="40dp"

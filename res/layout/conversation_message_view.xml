@@ -14,14 +14,14 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<com.android.messaging.ui.conversation.ConversationMessageView
+<com.radiant.messaging.ui.conversation.ConversationMessageView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     style="@style/ConversationMessageViewStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content" >
 
-    <com.android.messaging.ui.ContactIconView
+    <com.radiant.messaging.ui.ContactIconView
         android:id="@+id/conversation_icon"
         android:layout_width="@dimen/conversation_message_contact_icon_size"
         android:layout_height="@dimen/conversation_message_contact_icon_size"
@@ -30,7 +30,7 @@
         android:layout_gravity="center_vertical"
         android:importantForAccessibility="no" />
 
-    <com.android.messaging.ui.conversation.ConversationMessageBubbleView
+    <com.radiant.messaging.ui.conversation.ConversationMessageBubbleView
         android:id="@+id/message_content"
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -46,13 +46,13 @@
 
             <!-- Video, audio and vcard attachments (if present) will be added here -->
 
-            <com.android.messaging.ui.MultiAttachmentLayout
+            <com.radiant.messaging.ui.MultiAttachmentLayout
                 android:id="@+id/multiple_attachments"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:visibility="gone" />
 
-            <com.android.messaging.ui.AsyncImageView
+            <com.radiant.messaging.ui.AsyncImageView
                 android:id="@+id/message_image"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
 
         </LinearLayout>
 
-        <com.android.messaging.ui.conversation.MessageBubbleBackground
+        <com.radiant.messaging.ui.conversation.MessageBubbleBackground
             android:id="@+id/message_text_and_info"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -127,7 +127,7 @@
                 android:visibility="gone"
                 android:importantForAccessibility="no" />
 
-            <com.android.messaging.ui.LineWrapLayout
+            <com.radiant.messaging.ui.LineWrapLayout
                 android:id="@+id/message_metadata"
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
@@ -163,10 +163,10 @@
                     style="@style/SmsDeliverdBadge"
                     android:src="@drawable/ic_sms_delivery_ok"
                     android:visibility="gone" />
-            </com.android.messaging.ui.LineWrapLayout>
+            </com.radiant.messaging.ui.LineWrapLayout>
 
-        </com.android.messaging.ui.conversation.MessageBubbleBackground>
+        </com.radiant.messaging.ui.conversation.MessageBubbleBackground>
 
-    </com.android.messaging.ui.conversation.ConversationMessageBubbleView>
+    </com.radiant.messaging.ui.conversation.ConversationMessageBubbleView>
 
-</com.android.messaging.ui.conversation.ConversationMessageView>
+</com.radiant.messaging.ui.conversation.ConversationMessageView>

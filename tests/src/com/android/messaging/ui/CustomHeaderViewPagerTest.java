@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.messaging.ui;
+package com.radiant.messaging.ui;
 
 import androidx.viewpager.widget.ViewPager;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.SimpleCursorAdapter;
 
-import com.android.messaging.FakeFactory;
-import com.android.messaging.R;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.R;
 
 public class CustomHeaderViewPagerTest extends ViewTest<CustomHeaderViewPager> {
 

@@ -16,7 +16,7 @@
 -->
 <fragment
     xmlns:android="http://schemas.android.com/apk/res/android"
-    class="com.android.messaging.ui.conversationlist.ConversationListFragment"
+    class="com.radiant.messaging.ui.conversationlist.ConversationListFragment"
     android:id="@+id/conversation_list_fragment"
     android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
     android:layout_width="match_parent"

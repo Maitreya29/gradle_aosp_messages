@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.messaging.datamodel.media;
+package com.radiant.messaging.datamodel.media;
 
 import android.test.suitebuilder.annotation.SmallTest;
 
-import com.android.messaging.BugleTestCase;
-import com.android.messaging.FakeFactory;
-import com.android.messaging.datamodel.MemoryCacheManager;
-import com.android.messaging.datamodel.media.MediaResourceManager.MediaResourceLoadListener;
+import com.radiant.messaging.BugleTestCase;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.datamodel.MemoryCacheManager;
+import com.radiant.messaging.datamodel.media.MediaResourceManager.MediaResourceLoadListener;
 
 import java.util.concurrent.CountDownLatch;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.datamodel.action;
+package com.radiant.messaging.datamodel.action;
 
 import android.os.Bundle;
 import android.os.Parcel;
@@ -22,10 +22,10 @@ import android.os.Parcelable;
 import android.test.suitebuilder.annotation.MediumTest;
 import android.test.suitebuilder.annotation.SmallTest;
 
-import com.android.messaging.BugleTestCase;
-import com.android.messaging.FakeFactory;
-import com.android.messaging.datamodel.DataModelImpl;
-import com.android.messaging.datamodel.action.ActionTestHelpers.StubChatActionMonitor;
+import com.radiant.messaging.BugleTestCase;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.datamodel.DataModelImpl;
+import com.radiant.messaging.datamodel.action.ActionTestHelpers.StubChatActionMonitor;
 
 import java.util.ArrayList;
 

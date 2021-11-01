@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.util;
+package com.radiant.messaging.util;
 
 /**
  * Fake implementation which just returns the default values.

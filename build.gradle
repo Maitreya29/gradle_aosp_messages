@@ -121,7 +121,7 @@ android {
     productFlavors {
         aosp {
             flavorDimensions 'default'
-            applicationId 'com.android.messaging'
+            applicationId 'com.radiant.messaging'
         }
     }
 

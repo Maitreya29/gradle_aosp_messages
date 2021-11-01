@@ -14,27 +14,27 @@
  * limitations under the License.
  */
 
-package com.android.messaging.ui.attachmentchooser;
+package com.radiant.messaging.ui.attachmentchooser;
 
 import android.app.Fragment;
 import android.test.suitebuilder.annotation.LargeTest;
 import android.widget.CheckBox;
 
-import com.android.messaging.FakeFactory;
-import com.android.messaging.R;
-import com.android.messaging.datamodel.DataModel;
-import com.android.messaging.datamodel.data.DraftMessageData;
-import com.android.messaging.datamodel.data.MessageData;
-import com.android.messaging.datamodel.data.MessagePartData;
-import com.android.messaging.datamodel.data.TestDataFactory;
-import com.android.messaging.ui.FragmentTestCase;
-import com.android.messaging.ui.TestActivity;
-import com.android.messaging.ui.TestActivity.FragmentEventListener;
-import com.android.messaging.ui.attachmentchooser.AttachmentChooserFragment;
-import com.android.messaging.ui.attachmentchooser.AttachmentGridItemView;
-import com.android.messaging.ui.attachmentchooser.AttachmentGridView;
-import com.android.messaging.ui.attachmentchooser.AttachmentChooserFragment.AttachmentChooserFragmentHost;
-import com.android.messaging.ui.conversationlist.ConversationListFragment;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.R;
+import com.radiant.messaging.datamodel.DataModel;
+import com.radiant.messaging.datamodel.data.DraftMessageData;
+import com.radiant.messaging.datamodel.data.MessageData;
+import com.radiant.messaging.datamodel.data.MessagePartData;
+import com.radiant.messaging.datamodel.data.TestDataFactory;
+import com.radiant.messaging.ui.FragmentTestCase;
+import com.radiant.messaging.ui.TestActivity;
+import com.radiant.messaging.ui.TestActivity.FragmentEventListener;
+import com.radiant.messaging.ui.attachmentchooser.AttachmentChooserFragment;
+import com.radiant.messaging.ui.attachmentchooser.AttachmentGridItemView;
+import com.radiant.messaging.ui.attachmentchooser.AttachmentGridView;
+import com.radiant.messaging.ui.attachmentchooser.AttachmentChooserFragment.AttachmentChooserFragmentHost;
+import com.radiant.messaging.ui.conversationlist.ConversationListFragment;
 
 import org.mockito.ArgumentMatcher;
 import org.mockito.Matchers;

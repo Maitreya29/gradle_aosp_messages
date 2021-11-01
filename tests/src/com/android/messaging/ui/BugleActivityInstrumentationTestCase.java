@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.messaging.ui;
+package com.radiant.messaging.ui;
 
 import android.app.Activity;
 
-import com.android.messaging.BugleTestCase;
-import com.android.messaging.TestUtil;
+import com.radiant.messaging.BugleTestCase;
+import com.radiant.messaging.TestUtil;
 
 /**
  * Helper class that extends ActivityInstrumentationTestCase2 to provide some extra common

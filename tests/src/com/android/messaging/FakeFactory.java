@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging;
+package com.radiant.messaging;
 
 import android.content.ContentProvider;
 import android.content.Context;
@@ -23,22 +23,22 @@ import android.provider.Settings;
 import android.telephony.SubscriptionInfo;
 import android.telephony.SubscriptionManager;
 
-import com.android.messaging.datamodel.DataModel;
-import com.android.messaging.datamodel.MemoryCacheManager;
-import com.android.messaging.datamodel.ParticipantRefresh.ContactContentObserver;
-import com.android.messaging.datamodel.media.MediaCacheManager;
-import com.android.messaging.datamodel.media.MediaResourceManager;
-import com.android.messaging.sms.ApnDatabase;
-import com.android.messaging.sms.BugleCarrierConfigValuesLoader;
-import com.android.messaging.ui.UIIntents;
-import com.android.messaging.util.Assert;
-import com.android.messaging.util.BugleGservices;
-import com.android.messaging.util.BuglePrefs;
-import com.android.messaging.util.FakeBugleGservices;
-import com.android.messaging.util.FakeBuglePrefs;
-import com.android.messaging.util.MediaUtil;
-import com.android.messaging.util.OsUtil;
-import com.android.messaging.util.PhoneUtils;
+import com.radiant.messaging.datamodel.DataModel;
+import com.radiant.messaging.datamodel.MemoryCacheManager;
+import com.radiant.messaging.datamodel.ParticipantRefresh.ContactContentObserver;
+import com.radiant.messaging.datamodel.media.MediaCacheManager;
+import com.radiant.messaging.datamodel.media.MediaResourceManager;
+import com.radiant.messaging.sms.ApnDatabase;
+import com.radiant.messaging.sms.BugleCarrierConfigValuesLoader;
+import com.radiant.messaging.ui.UIIntents;
+import com.radiant.messaging.util.Assert;
+import com.radiant.messaging.util.BugleGservices;
+import com.radiant.messaging.util.BuglePrefs;
+import com.radiant.messaging.util.FakeBugleGservices;
+import com.radiant.messaging.util.FakeBuglePrefs;
+import com.radiant.messaging.util.MediaUtil;
+import com.radiant.messaging.util.OsUtil;
+import com.radiant.messaging.util.PhoneUtils;
 
 import org.mockito.Matchers;
 import org.mockito.Mock;

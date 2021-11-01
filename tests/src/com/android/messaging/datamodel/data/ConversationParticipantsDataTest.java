@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.messaging.datamodel.data;
+package com.radiant.messaging.datamodel.data;
 
 import android.test.suitebuilder.annotation.SmallTest;
 
-import com.android.messaging.BugleTestCase;
-import com.android.messaging.datamodel.FakeCursor;
-import com.android.messaging.datamodel.DatabaseHelper.ParticipantColumns;
-import com.android.messaging.datamodel.data.ConversationParticipantsData;
-import com.android.messaging.datamodel.data.ParticipantData;
+import com.radiant.messaging.BugleTestCase;
+import com.radiant.messaging.datamodel.FakeCursor;
+import com.radiant.messaging.datamodel.DatabaseHelper.ParticipantColumns;
+import com.radiant.messaging.datamodel.data.ConversationParticipantsData;
+import com.radiant.messaging.datamodel.data.ParticipantData;
 
 @SmallTest
 public class ConversationParticipantsDataTest extends BugleTestCase {

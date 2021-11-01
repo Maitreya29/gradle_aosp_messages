@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.messaging.datamodel;
+package com.radiant.messaging.datamodel;
 
 import android.test.AndroidTestCase;
 import android.test.suitebuilder.annotation.SmallTest;
 
-import com.android.messaging.datamodel.MemoryCacheManager.MemoryCache;
+import com.radiant.messaging.datamodel.MemoryCacheManager.MemoryCache;
 
 import org.mockito.Mockito;
 

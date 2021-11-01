@@ -14,7 +14,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<com.android.messaging.ui.conversationlist.ConversationListItemView
+<com.radiant.messaging.ui.conversationlist.ConversationListItemView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -73,7 +73,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent">
-                <com.android.messaging.ui.ContactIconView
+                <com.radiant.messaging.ui.ContactIconView
                     android:id="@+id/conversation_icon"
                     android:layout_width="@dimen/conversation_list_contact_icon_size"
                     android:layout_height="@dimen/conversation_list_contact_icon_size"
@@ -169,7 +169,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="top|end"
                 android:background="@android:color/transparent">
-                <com.android.messaging.ui.AsyncImageView
+                <com.radiant.messaging.ui.AsyncImageView
                     android:id="@+id/conversation_image_preview"
                     style="@style/ConversationListItemViewPaddingStyle"
                     app:cornerRadius="@dimen/conversation_list_image_preview_corner_radius"
@@ -179,7 +179,7 @@
                     android:scaleType="centerCrop"
                     android:contentDescription="@string/message_image_content_description"
                     android:background="@android:color/transparent" />
-                <com.android.messaging.ui.AudioAttachmentView
+                <com.radiant.messaging.ui.AudioAttachmentView
                     android:id="@+id/audio_attachment_view"
                     android:layout_width="@dimen/conversation_list_image_preview_size"
                     android:layout_height="@dimen/conversation_list_image_preview_size"
@@ -189,4 +189,4 @@
             </FrameLayout>
         </LinearLayout>
     </FrameLayout>
-</com.android.messaging.ui.conversationlist.ConversationListItemView>
+</com.radiant.messaging.ui.conversationlist.ConversationListItemView>

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.ui.contact;
+package com.radiant.messaging.ui.contact;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -24,21 +24,21 @@ import android.test.suitebuilder.annotation.LargeTest;
 import android.view.View;
 import android.widget.ListView;
 
-import com.android.messaging.FakeFactory;
-import com.android.messaging.R;
-import com.android.messaging.datamodel.FakeDataModel;
-import com.android.messaging.datamodel.action.ActionTestHelpers;
-import com.android.messaging.datamodel.action.ActionTestHelpers.StubActionService;
-import com.android.messaging.datamodel.action.ActionTestHelpers.StubActionService.StubActionServiceCallLog;
-import com.android.messaging.datamodel.action.GetOrCreateConversationAction;
-import com.android.messaging.datamodel.data.ContactPickerData;
-import com.android.messaging.datamodel.data.ParticipantData;
-import com.android.messaging.datamodel.data.TestDataFactory;
-import com.android.messaging.ui.CustomHeaderViewPagerAdapter;
-import com.android.messaging.ui.FragmentTestCase;
-import com.android.messaging.ui.UIIntents;
-import com.android.messaging.ui.contact.ContactPickerFragment;
-import com.android.messaging.ui.contact.ContactPickerFragment.ContactPickerFragmentHost;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.R;
+import com.radiant.messaging.datamodel.FakeDataModel;
+import com.radiant.messaging.datamodel.action.ActionTestHelpers;
+import com.radiant.messaging.datamodel.action.ActionTestHelpers.StubActionService;
+import com.radiant.messaging.datamodel.action.ActionTestHelpers.StubActionService.StubActionServiceCallLog;
+import com.radiant.messaging.datamodel.action.GetOrCreateConversationAction;
+import com.radiant.messaging.datamodel.data.ContactPickerData;
+import com.radiant.messaging.datamodel.data.ParticipantData;
+import com.radiant.messaging.datamodel.data.TestDataFactory;
+import com.radiant.messaging.ui.CustomHeaderViewPagerAdapter;
+import com.radiant.messaging.ui.FragmentTestCase;
+import com.radiant.messaging.ui.UIIntents;
+import com.radiant.messaging.ui.contact.ContactPickerFragment;
+import com.radiant.messaging.ui.contact.ContactPickerFragment.ContactPickerFragmentHost;
 
 import org.mockito.Matchers;
 import org.mockito.Mock;

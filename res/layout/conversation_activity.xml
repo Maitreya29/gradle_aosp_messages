@@ -14,7 +14,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<com.android.messaging.ui.ImeDetectFrameLayout
+<com.radiant.messaging.ui.ImeDetectFrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/conversation_and_compose_container"
@@ -30,4 +30,4 @@
         android:id="@+id/contact_picker_fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-</com.android.messaging.ui.ImeDetectFrameLayout>
+</com.radiant.messaging.ui.ImeDetectFrameLayout>

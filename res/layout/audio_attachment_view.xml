@@ -23,7 +23,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal">
 
-    <com.android.messaging.ui.AudioAttachmentPlayPauseButton
+    <com.radiant.messaging.ui.AudioAttachmentPlayPauseButton
         android:id="@+id/play_pause_button"
         style="@style/AudioAttachmentViewPlayPauseButtonStyle"
         android:layout_width="wrap_content"
@@ -42,16 +42,16 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_audio_pause"
             android:contentDescription="@string/audio_pause_content_description"/>
-    </com.android.messaging.ui.AudioAttachmentPlayPauseButton>
+    </com.radiant.messaging.ui.AudioAttachmentPlayPauseButton>
 
-    <com.android.messaging.ui.mediapicker.PausableChronometer
+    <com.radiant.messaging.ui.mediapicker.PausableChronometer
         android:id="@+id/timer"
         style="@style/AudioAttachmentTimerText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center" />
 
-    <com.android.messaging.ui.AudioPlaybackProgressBar
+    <com.radiant.messaging.ui.AudioPlaybackProgressBar
         android:id="@+id/progress"
         style="@android:style/Widget.ProgressBar.Horizontal"
         android:layout_width="0dp"

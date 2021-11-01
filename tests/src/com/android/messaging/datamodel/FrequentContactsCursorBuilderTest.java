@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.messaging.datamodel;
+package com.radiant.messaging.datamodel;
 
 import android.database.Cursor;
 import android.test.suitebuilder.annotation.SmallTest;
 
-import com.android.messaging.BugleTestCase;
-import com.android.messaging.datamodel.data.TestDataFactory;
-import com.android.messaging.util.ContactUtil;
+import com.radiant.messaging.BugleTestCase;
+import com.radiant.messaging.datamodel.data.TestDataFactory;
+import com.radiant.messaging.util.ContactUtil;
 
 @SmallTest
 public class FrequentContactsCursorBuilderTest extends BugleTestCase {

@@ -14,7 +14,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<com.android.messaging.ui.conversationsettings.PeopleOptionsItemView
+<com.radiant.messaging.ui.conversationsettings.PeopleOptionsItemView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
@@ -41,4 +41,4 @@
             style="@style/ParticipantListItem"
             android:layout_gravity="center_vertical" />
     </LinearLayout>
-</com.android.messaging.ui.conversationsettings.PeopleOptionsItemView>
+</com.radiant.messaging.ui.conversationsettings.PeopleOptionsItemView>

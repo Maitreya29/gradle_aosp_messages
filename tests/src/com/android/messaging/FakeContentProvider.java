@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging;
+package com.radiant.messaging;
 
 import android.content.ContentProvider;
 import android.content.ContentProviderClient;
@@ -28,8 +28,8 @@ import android.os.RemoteException;
 import androidx.collection.SimpleArrayMap;
 import android.text.TextUtils;
 
-import com.android.messaging.datamodel.FakeCursor;
-import com.android.messaging.util.LogUtil;
+import com.radiant.messaging.datamodel.FakeCursor;
+import com.radiant.messaging.util.LogUtil;
 
 import java.util.ArrayList;
 

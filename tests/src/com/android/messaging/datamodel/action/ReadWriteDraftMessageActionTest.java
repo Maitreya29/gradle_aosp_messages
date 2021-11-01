@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.datamodel.action;
+package com.radiant.messaging.datamodel.action;
 
 import android.content.ContentProvider;
 import android.content.pm.ProviderInfo;
@@ -23,24 +23,24 @@ import android.net.Uri;
 import android.test.suitebuilder.annotation.SmallTest;
 import android.text.TextUtils;
 
-import com.android.messaging.BugleTestCase;
-import com.android.messaging.FakeContext;
-import com.android.messaging.FakeFactory;
-import com.android.messaging.datamodel.BugleDatabaseOperations;
-import com.android.messaging.datamodel.DataModel;
-import com.android.messaging.datamodel.DatabaseHelper;
-import com.android.messaging.datamodel.DatabaseHelper.ConversationColumns;
-import com.android.messaging.datamodel.DatabaseWrapper;
-import com.android.messaging.datamodel.FakeDataModel;
-import com.android.messaging.datamodel.MediaScratchFileProvider;
-import com.android.messaging.datamodel.MessagingContentProvider;
-import com.android.messaging.datamodel.action.ActionTestHelpers.StubActionService;
-import com.android.messaging.datamodel.action.ActionTestHelpers.StubActionService.StubActionServiceCallLog;
-import com.android.messaging.datamodel.action.ReadDraftDataAction.ReadDraftDataActionListener;
-import com.android.messaging.datamodel.data.MessageData;
-import com.android.messaging.datamodel.data.MessagePartData;
-import com.android.messaging.datamodel.data.ParticipantData;
-import com.android.messaging.util.ContentType;
+import com.radiant.messaging.BugleTestCase;
+import com.radiant.messaging.FakeContext;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.datamodel.BugleDatabaseOperations;
+import com.radiant.messaging.datamodel.DataModel;
+import com.radiant.messaging.datamodel.DatabaseHelper;
+import com.radiant.messaging.datamodel.DatabaseHelper.ConversationColumns;
+import com.radiant.messaging.datamodel.DatabaseWrapper;
+import com.radiant.messaging.datamodel.FakeDataModel;
+import com.radiant.messaging.datamodel.MediaScratchFileProvider;
+import com.radiant.messaging.datamodel.MessagingContentProvider;
+import com.radiant.messaging.datamodel.action.ActionTestHelpers.StubActionService;
+import com.radiant.messaging.datamodel.action.ActionTestHelpers.StubActionService.StubActionServiceCallLog;
+import com.radiant.messaging.datamodel.action.ReadDraftDataAction.ReadDraftDataActionListener;
+import com.radiant.messaging.datamodel.data.MessageData;
+import com.radiant.messaging.datamodel.data.MessagePartData;
+import com.radiant.messaging.datamodel.data.ParticipantData;
+import com.radiant.messaging.util.ContentType;
 
 import org.mockito.Mock;
 

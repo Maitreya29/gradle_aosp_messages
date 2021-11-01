@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.ui;
+package com.radiant.messaging.ui;
 
 
 import android.content.Context;
@@ -24,8 +24,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.android.messaging.FakeFactory;
-import com.android.messaging.datamodel.data.MessagePartData;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.datamodel.data.MessagePartData;
 
 import java.util.Arrays;
 import java.util.Collections;

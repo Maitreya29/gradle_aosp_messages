@@ -25,5 +25,5 @@
     android:resizeMode="horizontal|vertical"
     android:widgetCategory="home_screen|keyguard"
     android:previewImage="@drawable/messenger_widget_conversation_preview"
-    android:configure="com.android.messaging.ui.WidgetPickConversationActivity">
+    android:configure="com.radiant.messaging.ui.WidgetPickConversationActivity">
 </appwidget-provider>

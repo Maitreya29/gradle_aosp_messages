@@ -17,9 +17,9 @@
 package org.lineageos.messaging.util;
 
 import android.content.Context;
-import com.android.messaging.Factory;
-import com.android.messaging.R;
-import com.android.messaging.util.BuglePrefs;
+import com.radiant.messaging.Factory;
+import com.radiant.messaging.R;
+import com.radiant.messaging.util.BuglePrefs;
 
 public class PrefsUtils {
     public static final String SHOW_EMOTICONS_ENABLED = "pref_show_emoticons";

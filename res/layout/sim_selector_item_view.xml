@@ -14,7 +14,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<com.android.messaging.ui.conversation.SimSelectorItemView
+<com.radiant.messaging.ui.conversation.SimSelectorItemView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -53,7 +53,7 @@
 
     </LinearLayout>
 
-    <com.android.messaging.ui.conversation.SimIconView
+    <com.radiant.messaging.ui.conversation.SimIconView
         android:id="@+id/sim_icon"
         android:layout_width="@dimen/sim_selector_icon_size"
         android:layout_height="@dimen/sim_selector_icon_size"
@@ -62,4 +62,4 @@
         android:elevation="3dp"
         app:iconSizez="normal" />
 
-</com.android.messaging.ui.conversation.SimSelectorItemView>
+</com.radiant.messaging.ui.conversation.SimSelectorItemView>

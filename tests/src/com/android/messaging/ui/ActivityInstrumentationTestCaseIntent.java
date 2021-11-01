@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.ui;
+package com.radiant.messaging.ui;
 
 import android.content.ComponentName;
 import android.content.Context;

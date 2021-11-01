@@ -14,7 +14,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<com.android.messaging.ui.attachmentchooser.AttachmentGridItemView
+<com.radiant.messaging.ui.attachmentchooser.AttachmentGridItemView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="@dimen/attachment_grid_image_cell_size"
@@ -40,4 +40,4 @@
         android:layout_gravity="top|end"
         android:paddingTop="4dp"
         android:contentDescription="@string/gallery_checkbox_content_description" />
-</com.android.messaging.ui.attachmentchooser.AttachmentGridItemView>
+</com.radiant.messaging.ui.attachmentchooser.AttachmentGridItemView>

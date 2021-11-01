@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.datamodel.action;
+package com.radiant.messaging.datamodel.action;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -25,17 +25,17 @@ import android.os.Process;
 import android.test.suitebuilder.annotation.MediumTest;
 import android.util.Log;
 
-import com.android.messaging.Factory;
-import com.android.messaging.FakeContext;
-import com.android.messaging.FakeContext.FakeContextHost;
-import com.android.messaging.FakeFactory;
-import com.android.messaging.datamodel.BugleServiceTestCase;
-import com.android.messaging.datamodel.FakeDataModel;
-import com.android.messaging.datamodel.action.ActionMonitor.ActionCompletedListener;
-import com.android.messaging.datamodel.action.ActionMonitor.ActionStateChangedListener;
-import com.android.messaging.datamodel.action.ActionTestHelpers.ResultTracker;
-import com.android.messaging.datamodel.action.ActionTestHelpers.StubBackgroundWorker;
-import com.android.messaging.datamodel.action.ActionTestHelpers.StubLoader;
+import com.radiant.messaging.Factory;
+import com.radiant.messaging.FakeContext;
+import com.radiant.messaging.FakeContext.FakeContextHost;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.datamodel.BugleServiceTestCase;
+import com.radiant.messaging.datamodel.FakeDataModel;
+import com.radiant.messaging.datamodel.action.ActionMonitor.ActionCompletedListener;
+import com.radiant.messaging.datamodel.action.ActionMonitor.ActionStateChangedListener;
+import com.radiant.messaging.datamodel.action.ActionTestHelpers.ResultTracker;
+import com.radiant.messaging.datamodel.action.ActionTestHelpers.StubBackgroundWorker;
+import com.radiant.messaging.datamodel.action.ActionTestHelpers.StubLoader;
 
 import java.util.ArrayList;
 

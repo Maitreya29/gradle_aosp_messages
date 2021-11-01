@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.messaging.ui.mediapicker;
+package com.radiant.messaging.ui.mediapicker;
 
 import android.hardware.Camera;
 import android.hardware.Camera.CameraInfo;
 
-import com.android.messaging.ui.mediapicker.CameraManager.CameraWrapper;
+import com.radiant.messaging.ui.mediapicker.CameraManager.CameraWrapper;
 import org.mockito.Mockito;
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.messaging.datamodel;
+package com.radiant.messaging.datamodel;
 
 import android.test.suitebuilder.annotation.SmallTest;
 
-import com.android.messaging.BugleTestCase;
-import com.android.messaging.datamodel.binding.BindableData;
-import com.android.messaging.datamodel.binding.Binding;
-import com.android.messaging.datamodel.binding.BindingBase;
-import com.android.messaging.datamodel.binding.ImmutableBindingRef;
+import com.radiant.messaging.BugleTestCase;
+import com.radiant.messaging.datamodel.binding.BindableData;
+import com.radiant.messaging.datamodel.binding.Binding;
+import com.radiant.messaging.datamodel.binding.BindingBase;
+import com.radiant.messaging.datamodel.binding.ImmutableBindingRef;
 
 /**
  * Test binding

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.util;
+package com.radiant.messaging.util;
 
 import android.content.ContentProviderOperation;
 import android.content.ContentValues;
@@ -25,8 +25,8 @@ import android.provider.ContactsContract.Contacts;
 import android.test.suitebuilder.annotation.LargeTest;
 import android.text.TextUtils;
 
-import com.android.messaging.BugleTestCase;
-import com.android.messaging.FakeFactory;
+import com.radiant.messaging.BugleTestCase;
+import com.radiant.messaging.FakeFactory;
 
 import org.junit.Assert;
 

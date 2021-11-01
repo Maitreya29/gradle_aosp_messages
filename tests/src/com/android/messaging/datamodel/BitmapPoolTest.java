@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.android.messaging.datamodel;
+package com.radiant.messaging.datamodel;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.test.suitebuilder.annotation.SmallTest;
 
-import com.android.messaging.BugleTestCase;
-import com.android.messaging.FakeFactory;
-import com.android.messaging.R;
+import com.radiant.messaging.BugleTestCase;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.R;
 
 import org.mockito.Mock;
 

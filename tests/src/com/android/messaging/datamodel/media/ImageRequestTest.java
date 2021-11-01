@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.messaging.datamodel.media;
+package com.radiant.messaging.datamodel.media;
 
 import android.content.ContentResolver;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.test.suitebuilder.annotation.SmallTest;
 
-import com.android.messaging.BugleTestCase;
-import com.android.messaging.FakeFactory;
-import com.android.messaging.R;
-import com.android.messaging.datamodel.MemoryCacheManager;
-import com.android.messaging.util.ImageUtils;
+import com.radiant.messaging.BugleTestCase;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.R;
+import com.radiant.messaging.datamodel.MemoryCacheManager;
+import com.radiant.messaging.util.ImageUtils;
 
 import org.mockito.ArgumentCaptor;
 import org.mockito.Matchers;

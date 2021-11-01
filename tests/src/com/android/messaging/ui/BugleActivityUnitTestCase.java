@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.messaging.ui;
+package com.radiant.messaging.ui;
 
 import android.app.Activity;
 import android.view.ContextThemeWrapper;
 
-import com.android.messaging.BugleTestCase;
-import com.android.messaging.R;
-import com.android.messaging.TestUtil;
+import com.radiant.messaging.BugleTestCase;
+import com.radiant.messaging.R;
+import com.radiant.messaging.TestUtil;
 
 /**
  * Base class for activity unit test cases, provides boilerplate setup/teardown.

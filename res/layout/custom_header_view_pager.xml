@@ -16,7 +16,7 @@
 -->
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <com.android.messaging.ui.ViewPagerTabs
+    <com.radiant.messaging.ui.ViewPagerTabs
         android:id="@+id/tab_strip"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

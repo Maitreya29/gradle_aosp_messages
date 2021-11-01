@@ -21,7 +21,7 @@
     android:background="@drawable/attachment_audio_preview_background"
     style="@style/AudioAttachmentViewStyle">
 
-    <com.android.messaging.ui.AudioAttachmentView
+    <com.radiant.messaging.ui.AudioAttachmentView
         android:id="@+id/audio_attachment_view"
         android:layout_width="match_parent"
         android:layout_height="70dp" />

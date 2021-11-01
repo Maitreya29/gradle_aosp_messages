@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.messaging.datamodel;
+package com.radiant.messaging.datamodel;
 
 import android.app.Service;
 import android.test.ServiceTestCase;
 
-import com.android.messaging.BugleTestCase;
-import com.android.messaging.TestUtil;
+import com.radiant.messaging.BugleTestCase;
+import com.radiant.messaging.TestUtil;
 
 
 /*

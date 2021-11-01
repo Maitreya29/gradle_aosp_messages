@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.android.messaging.datamodel;
+package com.radiant.messaging.datamodel;
 
 import android.test.suitebuilder.annotation.SmallTest;
 
-import com.android.messaging.BugleTestCase;
-import com.android.messaging.FakeFactory;
-import com.android.messaging.datamodel.data.ConversationData;
-import com.android.messaging.datamodel.data.ConversationListData;
-import com.android.messaging.datamodel.data.ConversationData.ConversationDataListener;
-import com.android.messaging.datamodel.data.ConversationListData.ConversationListDataListener;
+import com.radiant.messaging.BugleTestCase;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.datamodel.data.ConversationData;
+import com.radiant.messaging.datamodel.data.ConversationListData;
+import com.radiant.messaging.datamodel.data.ConversationData.ConversationDataListener;
+import com.radiant.messaging.datamodel.data.ConversationListData.ConversationListDataListener;
 
 import org.mockito.Mock;
 

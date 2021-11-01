@@ -28,7 +28,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.SparseArray;
 
-import com.android.messaging.R;
+import com.radiant.messaging.R;
 
 import java.net.URI;
 import java.net.URISyntaxException;

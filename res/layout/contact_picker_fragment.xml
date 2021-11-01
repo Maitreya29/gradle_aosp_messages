@@ -29,13 +29,13 @@
         android:background="@color/action_bar_background_color"
         app:theme="@style/ThemeOverlay.AppCompat.ActionBar">
 
-        <com.android.messaging.ui.MaxHeightScrollView
+        <com.radiant.messaging.ui.MaxHeightScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:maxHeight="@dimen/compose_message_chips_view_max_height">
 
-            <com.android.messaging.ui.contact.ContactRecipientAutoCompleteView
+            <com.radiant.messaging.ui.contact.ContactRecipientAutoCompleteView
                 android:id="@+id/recipient_text_view"
                 style="@style/RecipientEditTextView"
                 android:layout_width="match_parent"
@@ -54,9 +54,9 @@
 
                 <!-- Put focus on the chips view by default so soft keyboard can be shown -->
                 <requestFocus />
-            </com.android.messaging.ui.contact.ContactRecipientAutoCompleteView>
+            </com.radiant.messaging.ui.contact.ContactRecipientAutoCompleteView>
 
-        </com.android.messaging.ui.MaxHeightScrollView>
+        </com.radiant.messaging.ui.MaxHeightScrollView>
 
     </androidx.appcompat.widget.Toolbar>
 
@@ -64,7 +64,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
-        <com.android.messaging.ui.CustomHeaderViewPager
+        <com.radiant.messaging.ui.CustomHeaderViewPager
             android:id="@+id/contact_pager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>

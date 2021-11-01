@@ -19,7 +19,7 @@
     android:layout_height="match_parent"
     android:background="@color/attachment_chooser_vcard_background">
 
-    <com.android.messaging.ui.PersonItemView
+    <com.radiant.messaging.ui.PersonItemView
         android:id="@+id/vcard_attachment_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

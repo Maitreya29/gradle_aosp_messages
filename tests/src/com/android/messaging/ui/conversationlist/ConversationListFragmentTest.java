@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.messaging.ui.conversationlist;
+package com.radiant.messaging.ui.conversationlist;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -24,15 +24,15 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 
-import com.android.messaging.FakeFactory;
-import com.android.messaging.R;
-import com.android.messaging.datamodel.FakeDataModel;
-import com.android.messaging.datamodel.data.ConversationListData;
-import com.android.messaging.datamodel.data.TestDataFactory;
-import com.android.messaging.ui.FragmentTestCase;
-import com.android.messaging.ui.UIIntents;
-import com.android.messaging.ui.conversationlist.ConversationListFragment;
-import com.android.messaging.ui.conversationlist.ConversationListFragment.ConversationListFragmentHost;
+import com.radiant.messaging.FakeFactory;
+import com.radiant.messaging.R;
+import com.radiant.messaging.datamodel.FakeDataModel;
+import com.radiant.messaging.datamodel.data.ConversationListData;
+import com.radiant.messaging.datamodel.data.TestDataFactory;
+import com.radiant.messaging.ui.FragmentTestCase;
+import com.radiant.messaging.ui.UIIntents;
+import com.radiant.messaging.ui.conversationlist.ConversationListFragment;
+import com.radiant.messaging.ui.conversationlist.ConversationListFragment.ConversationListFragmentHost;
 
 import org.mockito.Matchers;
 import org.mockito.Mock;
