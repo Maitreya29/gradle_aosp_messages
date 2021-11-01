@@ -28,7 +28,7 @@
         android:id="@+id/action_show_archived"
         android:orderInCategory="200"
         android:title="@string/action_menu_show_archived"
-        android:showAsAction="never"/>
+        appcompat:showAsAction="never" />
 
     <item
         android:id="@+id/action_show_blocked_contacts"

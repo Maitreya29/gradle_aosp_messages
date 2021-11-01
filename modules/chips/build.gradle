@@ -20,11 +20,11 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    compileSdkVersion = 30
+    compileSdkVersion = 31
 
     defaultConfig {
         minSdkVersion 26
-        targetSdkVersion 30
+        targetSdkVersion 31
     }
 }
 
@@ -34,5 +34,5 @@ repositories {
 }
 
 dependencies {
-    implementation ('androidx.appcompat:appcompat:1.4.0-alpha02')
+    implementation ('androidx.appcompat:appcompat:1.4.0-rc01')
 }

@@ -22,6 +22,6 @@
         android:id="@+id/action_license"
         android:orderInCategory="100"
         android:title="@string/menu_license"
-        android:showAsAction="never"/>
+        appcompat:showAsAction="never" />
 
 </menu>
