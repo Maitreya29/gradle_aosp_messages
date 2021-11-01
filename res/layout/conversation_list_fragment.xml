@@ -14,11 +14,11 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@android:id/list"
@@ -46,6 +46,8 @@
         android:elevation="@dimen/fab_elevation"
         android:scaleType="center"
         android:src="@drawable/ic_text"
+        app:backgroundTint="@color/fab_color"
+        app:tint="@color/fab_color_fg"
         android:stateListAnimator="@animator/fab_anim" />
 
 </FrameLayout>
