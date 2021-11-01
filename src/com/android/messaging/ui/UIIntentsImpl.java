@@ -427,7 +427,7 @@ public class UIIntentsImpl extends UIIntents {
         }
         return PendingIntent.getBroadcast(context,
                 requestCode, intent,
-                PendingIntent.FLAG_UPDATE_CURRENT);
+                PendingIntent.FLAG_MUTABLE);
     }
 
     /**
@@ -445,7 +445,7 @@ public class UIIntentsImpl extends UIIntents {
         // Adds the back stack for the Intent (plus the Intent itself)
         stackBuilder.addNextIntentWithParentStack(intent);
         final PendingIntent resultPendingIntent =
-            stackBuilder.getPendingIntent(requestCode, PendingIntent.FLAG_UPDATE_CURRENT);
+            stackBuilder.getPendingIntent(requestCode, PendingIntent.FLAG_MUTABLE);
         return resultPendingIntent;
     }
 
@@ -458,7 +458,7 @@ public class UIIntentsImpl extends UIIntents {
                 getSmsStorageLowWarningActivityIntent(context));
 
         return taskStackBuilder.getPendingIntent(
-                0, PendingIntent.FLAG_UPDATE_CURRENT);
+                0, PendingIntent.FLAG_MUTABLE);
     }
 
     @Override
