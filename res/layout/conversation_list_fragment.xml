@@ -36,18 +36,16 @@
         android:layout_marginBottom="@dimen/conversation_list_empty_text_bottom_margin" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        style="@style/Widget.Material3.FloatingActionButton.Primary"
         android:id="@+id/start_new_conversation_button"
+        style="@style/ConversationListFragmentStartNewButtonStyle"
         android:layout_width="@dimen/fab_size"
         android:layout_height="@dimen/fab_size"
         android:layout_gravity="bottom|end"
         android:layout_marginBottom="@dimen/fab_bottom_margin"
-        android:paddingBottom="@dimen/fab_padding_bottom"
-        android:background="@drawable/fab_new_message_bg"
+        android:contentDescription="@string/start_new_conversation"
         android:elevation="@dimen/fab_elevation"
         android:scaleType="center"
         android:src="@drawable/ic_text"
-        android:stateListAnimator="@animator/fab_anim"
-        android:contentDescription="@string/start_new_conversation"/>
+        android:stateListAnimator="@animator/fab_anim" />
 
 </FrameLayout>
