@@ -71,7 +71,7 @@
         <item name="colorPrimaryDark">@color/archived_conversation_action_bar_background_color_dark</item>
     </style>
 
-    <style name="BugleTheme.SettingsActivity" parent="BugleTheme">
+    <style name="BugleTheme.SettingsActivity" parent="Theme.Material3.Light">
         <item name="android:textSize">@dimen/settings_list_text_size</item>
     </style>
 
