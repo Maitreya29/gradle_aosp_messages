@@ -113,6 +113,7 @@
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="user"
             android:label="@string/archived_activity_title"
+            android:exported="true"
             android:theme="@style/BugleTheme.ArchivedConversationListActivity"
             android:parentActivityName="com.android.messaging.ui.conversationlist.ConversationListActivity">
             <meta-data
@@ -125,6 +126,7 @@
             android:name=".ui.conversation.ConversationActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="user"
+            android:exported="true"
             android:windowSoftInputMode="stateHidden|adjustResize"
             android:theme="@style/BugleTheme.ConversationActivity"
             android:parentActivityName="com.android.messaging.ui.conversationlist.ConversationListActivity">
@@ -138,6 +140,7 @@
             android:name=".ui.BlockedParticipantsActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="user"
+            android:exported="true"
             android:label="@string/blocked_contacts_title"
             android:theme="@style/BugleTheme"
             android:parentActivityName="com.android.messaging.ui.conversationlist.ConversationListActivity">
@@ -162,6 +165,7 @@
             android:theme="@style/BugleTheme.SettingsActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="user"
+            android:exported="true"
             android:parentActivityName="com.android.messaging.ui.conversationlist.ConversationListActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -174,6 +178,7 @@
             android:theme="@style/BugleTheme.SettingsActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="user"
+            android:exported="true"
             android:parentActivityName="com.android.messaging.ui.appsettings.SettingsActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -186,6 +191,7 @@
             android:theme="@style/BugleTheme.SettingsActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="user"
+            android:exported="true"
             android:parentActivityName="com.android.messaging.ui.appsettings.SettingsActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -228,6 +234,7 @@
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="user"
             android:label="@string/people_and_options_activity_title"
+            android:exported="true"
             android:theme="@style/BugleTheme"
             android:parentActivityName="com.android.messaging.ui.conversation.ConversationActivity">
             <meta-data
@@ -248,6 +255,7 @@
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="user"
             android:label="@string/forward_message_activity_title"
+            android:exported="true"
             android:theme="@style/BugleTheme.DialogActivity">
         </activity>
 
@@ -269,6 +277,7 @@
             android:name=".ui.VCardDetailActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="user"
+            android:exported="true"
             android:label="@string/vcard_detail_activity_title"
             android:theme="@style/BugleTheme">
             <meta-data
@@ -281,6 +290,7 @@
             android:name=".ui.attachmentchooser.AttachmentChooserActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="user"
+            android:exported="true"
             android:label="@string/attachment_chooser_activity_title"
             android:theme="@style/BugleTheme"
             android:parentActivityName="com.android.messaging.ui.conversation.ConversationActivity">
@@ -295,6 +305,7 @@
         -->
         <activity
             android:name=".ui.TestActivity"
+            android:exported="true"
             android:configChanges="orientation|screenSize|keyboardHidden">
         </activity>
 
@@ -302,6 +313,7 @@
             android:name=".ui.debug.DebugMmsConfigActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="user"
+
             android:theme="@style/BugleTheme.DialogActivity"
             android:exported="false">
         </activity>
