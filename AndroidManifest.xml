@@ -236,10 +236,10 @@
             android:label="@string/people_and_options_activity_title"
             android:exported="true"
             android:theme="@style/BugleTheme"
-            android:parentActivityName="com.android.radiant.ui.conversation.ConversationActivity">
+            android:parentActivityName="com.radiant.messaging.ui.conversation.ConversationActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.android.radiant.ui.conversation.ConversationActivity" />
+                android:value="com.radiant.messaging.ui.conversation.ConversationActivity" />
         </activity>
 
          <!-- License -->
