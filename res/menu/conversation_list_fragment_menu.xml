@@ -48,4 +48,10 @@
         android:title="@string/action_debug_options"
         appcompat:showAsAction="never"/>
 
+    <item
+        android:id="@+id/action_appsearch_test"
+        android:orderInCategory="9900"
+        android:title="[AppSearch test]"
+        appcompat:showAsAction="never"/>
+
 </menu>
