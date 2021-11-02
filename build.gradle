@@ -157,4 +157,15 @@ dependencies {
     implementation "androidx.legacy:legacy-support-v13:1.0.0"
     implementation 'com.googlecode.libphonenumber:geocoder:2.161'
     implementation 'com.google.guava:guava:27.1-android'
+
+    def appsearch_version = "1.0.0-alpha03"
+
+    implementation "androidx.appsearch:appsearch:$appsearch_version"
+    annotationProcessor "androidx.appsearch:appsearch-compiler:$appsearch_version"
+
+    implementation "androidx.appsearch:appsearch-local-storage:$appsearch_version"
+    // PlatformStorage is compatible with Android 12+ devices, and offers additional features
+    // to LocalStorage.
+    implementation "androidx.appsearch:appsearch-platform-storage:$appsearch_version"
+
 }
