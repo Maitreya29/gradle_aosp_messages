@@ -18,13 +18,15 @@
         android:id="@+id/app_search_test_search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@android:string/search_go" />
+        android:text="@android:string/search_go"
+        android:onClick="search" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/app_search_test_recycler"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </ScrollView>
