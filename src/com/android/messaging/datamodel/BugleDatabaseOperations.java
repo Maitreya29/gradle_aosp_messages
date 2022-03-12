@@ -174,6 +174,14 @@ public class BugleDatabaseOperations {
         return getOrCreateConversation(db, threadId, senderBlocked, participants);
     }
 
+    private static final String QUERY_SEARCH_SQL = "SELECT conversations._id as conversation_id, conversations.latest_message_id as message_id, conversations.name as name, conversations.icon as icon, conversations.sort_timestamp as timestamp, conversations.subject_text as text FROM conversations WHERE (name LIKE ?) UNION ALL SELECT parts.conversation_id as conversation_id, parts.message_id as message_id, conversations.name as name, conversations.icon as icon, parts.timestamp as timestamp, parts.text as text FROM parts LEFT JOIN conversations ON (parts.conversation_id=conversations._id) LEFT JOIN messages ON (parts.message_id=messages._id) WHERE text LIKE ? AND (messages.message_status=100 OR messages.message_status=1 OR messages.message_status=2 OR messages.sms_message_uri LIKE '%rcs%' ) ORDER BY timestamp DESC LIMIT ?";
+
+    public static Cursor searchMessages(DatabaseWrapper databaseWrapper, String ms, int i) {
+        Assert.isNotMainThread();
+        String msformatted = "%" + ms + "%";
+        return databaseWrapper.rawQuery(QUERY_SEARCH_SQL, new String[]{msformatted, msformatted, Integer.toString(i)});
+    }
+
     /**
      * Get or create a conversation based on provided recipient
      *
