@@ -10,6 +10,7 @@ import com.android.messaging.R;
 import com.android.messaging.datamodel.BugleDatabaseOperations;
 import com.android.messaging.datamodel.DataModel;
 import com.android.messaging.datamodel.DatabaseWrapper;
+import com.android.messaging.datamodel.action.SearchAction;
 
 public class SearchActivity extends AppCompatActivity {
 
@@ -20,8 +21,7 @@ public class SearchActivity extends AppCompatActivity {
     }
 
     public void doSearch(View view) {
-        final DatabaseWrapper db = DataModel.get().getDatabase();
         TextView search = (TextView)findViewById(R.id.query);
-        BugleDatabaseOperations.searchMessages(db, (String) search.getText(), 12);
+        SearchAction.search(search.getText().toString());
     }
 }
