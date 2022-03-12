@@ -157,4 +157,5 @@ dependencies {
     implementation "androidx.legacy:legacy-support-v13:1.0.0"
     implementation 'com.googlecode.libphonenumber:geocoder:2.161'
     implementation 'com.google.guava:guava:27.1-android'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
 }
