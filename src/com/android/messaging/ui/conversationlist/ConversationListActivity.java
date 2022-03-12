@@ -16,6 +16,7 @@
 
 package com.android.messaging.ui.conversationlist;
 
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import androidx.appcompat.app.ActionBar;
@@ -23,6 +24,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.android.messaging.R;
+import com.android.messaging.ui.SearchActivity;
 import com.android.messaging.ui.UIIntents;
 import com.android.messaging.util.DebugUtils;
 import com.android.messaging.util.Trace;
@@ -99,6 +101,10 @@ public class ConversationListActivity extends AbstractConversationListActivity {
                 return true;
             case R.id.action_show_blocked_contacts:
                 onActionBarBlockedParticipants();
+                return true;
+            case R.id.action_temp_search:
+                Intent intent = new Intent(this, SearchActivity.class);
+                startActivity(intent);
                 return true;
         }
         return super.onOptionsItemSelected(menuItem);

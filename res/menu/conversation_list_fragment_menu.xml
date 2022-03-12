@@ -43,6 +43,12 @@
         appcompat:showAsAction="never"/>
 
     <item
+        android:id="@+id/action_temp_search"
+        android:orderInCategory="500"
+        android:title="Search"
+        appcompat:showAsAction="never"/>
+
+    <item
         android:id="@+id/action_debug_options"
         android:orderInCategory="9900"
         android:title="@string/action_debug_options"
